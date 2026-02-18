@@ -1,0 +1,6 @@
+{
+  "purpose": "Educational video playback",
+  "content": [
+    ["https://path-to-video.mp4", "poster-image.jpg", "Patient Testimonial"]
+  ]
+}
