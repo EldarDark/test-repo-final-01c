@@ -1,0 +1,23 @@
+.accordion .accordion-item-title {
+  cursor: pointer;
+  padding: 1rem;
+  background: #eee;
+  border-bottom: 1px solid #ccc;
+  font-weight: bold;
+  position: relative;
+}
+.accordion .accordion-item-title::after {
+  content: '+';
+  float: right;
+}
+.accordion .accordion-item-title[aria-expanded='true']::after {
+  content: '-';
+}
+.accordion .accordion-item-content {
+  display: none;
+  padding: 1rem;
+  background: #fff;
+}
+.accordion .accordion-item-content.is-open {
+  display: block;
+}
