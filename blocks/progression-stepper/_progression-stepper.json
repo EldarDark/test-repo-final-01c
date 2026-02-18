@@ -1,0 +1,8 @@
+{
+  "purpose": "Agitation escalation stages",
+  "content": [
+    ["Mild", "Restlessness and pacing", "#FFD700"],
+    ["Moderate", "Verbal outbursts", "#FF8C00"],
+    ["Severe", "Physical aggression", "#FF0000"]
+  ]
+}
